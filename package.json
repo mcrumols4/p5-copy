@@ -1,0 +1,45 @@
+{
+    "private": true,
+    "type": "module",
+    "scripts": {
+        "build": "vite build",
+        "dev": "vite",
+        "lint": "eslint resources/js --ext .js,.vue --ignore-path .gitignore --fix",
+        "test": "vitest tests",
+        "test:vitest": "vitest"
+    },
+    "devDependencies": {
+        "@inertiajs/vue3": "^2.0.3",
+        "@playwright/test": "^1.52.0",
+        "@rushstack/eslint-patch": "^1.8.0",
+        "@tailwindcss/forms": "^0.5.3",
+        "@tailwindcss/typography": "^0.5.16",
+        "@tailwindcss/vite": "^4.0.0",
+        "@vitejs/plugin-vue": "^5.0.0",
+        "@vue/eslint-config-prettier": "^9.0.0",
+        "autoprefixer": "^10.4.12",
+        "axios": "^1.7.4",
+        "concurrently": "^9.0.1",
+        "eslint": "^8.57.0",
+        "eslint-plugin-vue": "^9.23.0",
+        "laravel-vite-plugin": "^1.2.0",
+        "playwright": "^1.52.0",
+        "postcss": "^8.4.31",
+        "prettier": "^3.3.0",
+        "prettier-plugin-organize-imports": "^4.0.0",
+        "prettier-plugin-tailwindcss": "^0.6.5",
+        "tailwindcss": "^3.2.1",
+        "vite": "^6.0.11",
+        "vitest": "^3.1.2",
+        "vue": "^3.4.0"
+    },
+    "dependencies": {
+        "@ckeditor/ckeditor5-vue": "^7.3.0",
+        "@primeuix/themes": "^1.0.1",
+        "@vue/test-utils": "^2.4.0-alpha.2",
+        "ckeditor-tailwind-reset": "^1.0.5",
+        "jsdom": "^26.0.0",
+        "primeicons": "^7.0.0",
+        "primevue": "^4.3.3"
+    }
+}
